@@ -7,6 +7,13 @@
   height: 36px;
   width: 106px;
   cursor: pointer;
+  transition: opacity 1s;
+}
+.Uber-button:hover {
+  opacity: 0.8;
+}
+.Uber-button:active {
+  opacity: 0.4;
 }
 .Amazon-button {
   background-color: rgb(255, 216, 20);
@@ -20,6 +27,10 @@
   margin-right: 10px;
   font-weight: bold;
   font-size: 15px;
+  transition: background-color 1s;
+}
+.Amazon-button:hover{
+  background-color:rgb(202, 172, 19); ;
 }
 .Git-button{
   background-color: rgb(46, 164, 79);
@@ -31,6 +42,10 @@
   font-size: 15px;
   cursor: pointer;
   border: none;
+  transition: box-shadow 1s;
+}
+.Git-button:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.30);
 }
 .boot-button{
   background-color: rgb(121, 82, 179);
@@ -43,6 +58,10 @@
   cursor: pointer;
   margin-top: 13px;
   margin-left: 8px;
+  transition: background-color 1s;
+}
+.boot-button:hover {
+  background-color: rgb(92, 22, 198);;
 }
 .strap-button {
   background-color: white;
@@ -57,6 +76,11 @@
   font-weight: bold;
   font-size: small;
   margin-left: 8px;
+  transition: background-color 1s , color 1s;
+}
+.strap-button:hover {
+  background-color: grey;
+  color: white;
 }
 .apply-button {
   background-color: rgb(10, 102, 194);
@@ -70,6 +94,10 @@
   border-radius: 18px;
   margin-left: 8px;
   margin-right: 8px;
+  transition: background-color 1s;
+} 
+.apply-button:hover {
+  background-color: blue;
 }
 .save-button {
   background-color: white;
@@ -82,10 +110,17 @@
   cursor: pointer;
   font-weight: bold;
   border-style: solid;
+  transition: background-color 1s , opacity 1s,
+  border-width 1s;
 }
-body {
-   background-color: orange;
+.save-button:hover {
+  background-color: rgb(126, 126, 254);
+  border-width: 2px;
 }
+.save-button:active {
+  opacity: 0.7;
+}
+
 </style>
 
 <button class="Uber-button">

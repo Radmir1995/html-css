@@ -14,7 +14,13 @@
     cursor: pointer;
     font-weight: bolder;
     font-size: medium;
-
+   transition: background-color 1s , opacity 1s;
+  }
+  .amazon-button:hover {
+    background-color: rgb(106, 91, 16);
+  }
+  .amazon-button:active {
+    opacity: 0.5;
   }
   .buy-button {
     background-color: rgb(255, 164, 28);
@@ -27,12 +33,24 @@
    font-size: medium;
    cursor: pointer;
    margin-left: 18px;
+   transition: background-color 1s, opacity 1s,color 1s;
+  }
+  .buy-button:hover{
+    background-color: antiquewhite;
+    color: green;
+  }
+  .buy-button:active {
+    opacity: 0.6;
   }
   .back-amazon {
     color: rgb(0, 113, 133);
     cursor: pointer;
     font-size: large;
     margin-left: 7px;
+    transition: color 1s;
+  }
+  .back-amazon:hover{
+    color: orange;
   }
 </style>
 
